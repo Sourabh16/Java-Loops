@@ -6,7 +6,7 @@ public class factorial {
         int n = sc.nextInt();
         int factorial = 1;
         for(int i=1; i<n;i++){
-            factorial*=i;
+            factorial=factorial*i;
         }
         sc.close();
         System.out.println("Factorial is "+factorial);
